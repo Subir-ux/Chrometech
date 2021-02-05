@@ -142,6 +142,13 @@ div#preloader {
 /* Preloader CSS end */
 
 /* Navber start */
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.custom-navbar-toggler-icon {
+  color: #fff;
+}
 
 .collapsed-nav {
   position: fixed;
@@ -396,10 +403,6 @@ div#preloader {
   .banner-container {
     text-align: left;
   }
-
-
-
-
 }
 
 .left-text-box {
@@ -423,9 +426,6 @@ div#preloader {
     margin-top: 40px;
     margin-bottom: 60px;
   }
-
-
-
 }
 
 @media all and (min-width: 768px) {
@@ -465,7 +465,6 @@ div#preloader {
 
   .py-30-3 {
     margin-top: 40px !important;
-
   }
 
   .card-min-height {
@@ -492,21 +491,12 @@ div#preloader {
     padding-left: 15px;
   }
 
-  
-  
-  
-
   .plan-last {
     margin-bottom: 60px !important;
   }
 
-  
-  
-  
-
   .featured-mark {
     top: 65px !important;
-   
   }
 
   .featured {
@@ -514,8 +504,6 @@ div#preloader {
     margin-bottom: 30px;
     padding-bottom: 0 !important;
   }
-
-
 
   .contact-page-wrapper {
     padding-right: 15px;
@@ -1234,11 +1222,6 @@ div#preloader {
   text-align: center;
 }
 
-
-
-
-
-
 .card-bg {
   border: none;
   background: #fff;
@@ -1706,17 +1689,10 @@ div#preloader {
   /* padding-bottom: 100px; */
 }
 
-
-@media all and (min-width:992px) {
-
-
+@media all and (min-width: 992px) {
   .price-sec {
-    
     padding-bottom: 65px;
-
-
   }
-
 }
 .price-title {
   padding-bottom: 16px;
@@ -1859,11 +1835,11 @@ div#preloader {
 
   color: #00000a;
   padding: 40px 0;
-  
+
   border: none;
 }
 
-@media all and (min-width:992px) {
+@media all and (min-width: 992px) {
   .featured {
     margin-top: -40px;
   }
