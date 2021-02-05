@@ -22,6 +22,12 @@
     }
   });
 
+  // Auto close Navbar when click on link (responsive mode)
+
+  $(".navbar-collapse a").click(function () {
+    $(".navbar-collapse").collapse("hide");
+  });
+
   // Owl Carousel
 
   $(document).ready(function () {
@@ -88,12 +94,6 @@
 
   $(window).on("load", function () {
     aos_init();
-  });
-
-  // Auto close Navbar when click on link (responsive mode)
-
-  $(".navbar-collapse a").click(function () {
-    $(".navbar-collapse").collapse("hide");
   });
 
   // jQuery counterUp
@@ -344,6 +344,4 @@
       1200
     );
   });
-
-  
 })(jQuery);
