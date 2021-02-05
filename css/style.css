@@ -492,17 +492,30 @@ div#preloader {
     padding-left: 15px;
   }
 
-  .table-responsive {
+  
+  
+  
+
+  .plan-last {
     margin-bottom: 60px !important;
   }
 
-  .plan-last {
-    margin-top: 60px !important;
+  
+  
+  
+
+  .featured-mark {
+    top: 65px !important;
+   
   }
 
-  .price-sec {
-    padding-bottom: 60px !important;
+  .featured {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 0 !important;
   }
+
+
 
   .contact-page-wrapper {
     padding-right: 15px;
@@ -1690,9 +1703,21 @@ div#preloader {
 
 .price-sec {
   background: rgb(235, 235, 235);
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
+
+@media all and (min-width:992px) {
+
+
+  .price-sec {
+    
+    padding-bottom: 65px;
+
+
+  }
+
+}
 .price-title {
   padding-bottom: 16px;
   /* padding-top: 16px; */
@@ -1834,8 +1859,14 @@ div#preloader {
 
   color: #00000a;
   padding: 40px 0;
-  margin: -40px 0;
+  
   border: none;
+}
+
+@media all and (min-width:992px) {
+  .featured {
+    margin-top: -40px;
+  }
 }
 
 .price-table.featured ul {
@@ -1902,7 +1933,7 @@ div#preloader {
 
 .faq {
   background: rgba(107, 52, 255, 1);
-  padding-bottom: 40px;
+  padding-bottom: 34px;
 }
 
 .faq-title {
@@ -2379,7 +2410,7 @@ div#preloader {
 
 .testimonial-bg {
   background: rgb(235, 235, 235);
-  padding-top: 60px;
+  padding-top: 55px;
   padding-bottom: 60px;
 }
 
