@@ -473,18 +473,18 @@ div#preloader {
   }
 
   .mrbt-responsive-1 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
   }
 
   .mrbt-responsive-2 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
   }
 
   .mrbt-responsive-3 {
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin-top: 30px !important;
+    margin-bottom: 60px !important;
   }
 
   .ad-sec {
